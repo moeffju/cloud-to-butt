@@ -31,7 +31,7 @@ function handleText(textNode)
 {
   var v = textNode.nodeValue;
 
-  v = v.replace(/(?:(\u00fcber|gegen|in|f\u00fcr) )?(?:(d)(er|ie) )?(C)loud\b/gi, function(match, case1, cap1, case2, cap2, offset, string) {
+  v = v.replace(/(?:(\u00fcber|gegen|in|f\u00fcr) )?(?:(d)(er|ie) )?(C)louds?\b/gi, function(match, case1, cap1, case2, cap2, offset, string) {
     var r = '';
     if (cap1 != undefined) {
       if (case1 == undefined) {
