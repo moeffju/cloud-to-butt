@@ -1,16 +1,12 @@
-cloud-to-butt
-=============
+cloud-zu-hintern
+================
 
-Chrome extension that replaces occurrences of 'the cloud' with 'my butt'
+Diese Chrome-Extension ersetzt alle Vorkommen von „die Cloud“ durch „mein Hintern“.
 
-[Direct download of crx file](https://github.com/panicsteve/cloud-to-butt/blob/master/CloudToButt.crx?raw=true)
+[Download (.crx)](https://github.com/moeffju/cloud-to-butt/blob/master/cloud-zu-hintern.crx?raw=true)
 
 Installation
 ------------
 
-In Chrome, choose Window > Extensions.  Drag CloudToButt.crx into the page that appears.
+In Chrome, choose Window > Extensions.  Drag cloud-zu-hintern.crx into the page that appears.
 
-Safari Version
---------------
-
-Can be found here: https://github.com/logancollins/cloud-to-butt-safari
