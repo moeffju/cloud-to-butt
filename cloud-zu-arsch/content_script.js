@@ -31,10 +31,13 @@ function handleText(textNode)
 {
   var v = textNode.nodeValue;
 
-  v = v.replace(/Private Clouds\b/, 'Private Ärsche');
-  v = v.replace(/Private Cloud\b/, 'Privater Arsch');
-  v = v.replace(/einer ([„"'])Wolke([“"'])/, 'einem $1Arsch$2');
-  v = v.replace(/eine ([„"'])Wolke([“"'])/, 'ein $1Arsch$2');
+  v = v.replace(/([pP])rivate Clouds\b/, '$1rivate Ärsche');
+  v = v.replace(/([pP])rivate Cloud\b/, '$1rivater Arsch');
+  v = v.replace(/([vV])on Clouds\b/, '$1on Ärschen');
+  v = v.replace(/([iI])n der ([„"'])?Wolke([“"'])?/, '$1m $2Arsch$3');
+  v = v.replace(/([eE]in|[dD])er ([„"'])Wolke([“"'])?/, '$1em $2Arsch$3');
+  v = v.replace(/([eE]ine) ([„"'])Wolke([“"'])?/, '$1 $2Arsch$3');
+  v = v.replace(/([dD])ie ([„"'])Wolke([“"'])?/, '$1em $2Arsch$3');
   v = v.replace(/(?:(\u00fcber|gegen|in|f\u00fcr) )?(?:(d)(er|ie) )?(C)loud(s?)/gi, function(match, case1, cap1, case2, cap2, cplural, offset, string) {
     var r = '';
     if (cap1 != undefined) {
