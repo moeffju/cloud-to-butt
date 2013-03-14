@@ -31,7 +31,11 @@ function handleText(textNode)
 {
   var v = textNode.nodeValue;
 
-  v = v.replace(/(?:(\u00fcber|gegen|in|f\u00fcr) )?(?:(d)(er|ie) )?(C)louds?/gi, function(match, case1, cap1, case2, cap2, offset, string) {
+  v = v.replace(/Private Clouds\b/, 'Private Ärsche');
+  v = v.replace(/Private Cloud\b/, 'Privater Arsch');
+  v = v.replace(/einer ([„"'])Wolke([“"'])/, 'einem $1Arsch$2');
+  v = v.replace(/eine ([„"'])Wolke([“"'])/, 'ein $1Arsch$2');
+  v = v.replace(/(?:(\u00fcber|gegen|in|f\u00fcr) )?(?:(d)(er|ie) )?(C)loud(s?)/gi, function(match, case1, cap1, case2, cap2, cplural, offset, string) {
     var r = '';
     if (cap1 != undefined) {
       if (case1 == undefined) {
@@ -45,8 +49,14 @@ function handleText(textNode)
         r += (case2 == 'er' ? 'einem ' : 'einen ');
       }
     }
-    r += (cap2 == 'C' ? 'A' : 'a');
-    r += 'rsch';
+    if (cplural == 's') {
+      r += (cap2 == 'C' ? 'Ä' : 'ä');
+      r += 'rsche';
+    }
+    else {
+      r += (cap2 == 'C' ? 'A' : 'a');
+      r += 'rsch';
+    }
     return r;
   });
   
