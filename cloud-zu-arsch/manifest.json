@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "Cloud zu Arsch",
-	"version": "0.95",
+	"version": "0.99",
 	"description": "Ersetzt 'die Cloud' durch 'mein Arsch' usw.",
 	"content_scripts": 
 	[
