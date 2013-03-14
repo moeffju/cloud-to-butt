@@ -1,12 +1,17 @@
-cloud-zu-hintern
-================
+# cloud-zu-hintern
+
+## somewhat-safe-for-work-Version
 
 Diese Chrome-Extension ersetzt alle Vorkommen von „die Cloud“ durch „mein Hintern“.
 
 [Download (.crx)](https://github.com/moeffju/cloud-to-butt/blob/master/cloud-zu-hintern.crx?raw=true)
 
-Installation
-------------
+## somewhat-less-safe-for-work-Version
 
-In Chrome, choose Window > Extensions.  Drag cloud-zu-hintern.crx into the page that appears.
+Diese Chrome-Extension ersetzt alle Vorkommen von „die Cloud“ durch „mein Arsch“.
 
+[Download (.crx)](https://github.com/moeffju/cloud-to-butt/blob/master/cloud-zu-arsch.crx?raw=true)
+
+# Installation
+
+In Chrome: Windows > Extensions, dann das gewählte .crx auf die Seite ziehen.
