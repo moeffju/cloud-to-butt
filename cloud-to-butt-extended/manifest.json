@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+	"name": "Cloud to Butt Extended",
+	"version": "0.7",
+	"description": "Replaces „the cloud“ with „my butt”. Multi-language aware. Works across elements. Might be the best Cloud-to-Butt extension ever.",
+	"content_scripts": 
+	[
+		{
+			"matches": ["*://*/*"],
+			"js": ["cld-min.js", "fardom.js", "content_script.js"],
+			"run_at": "document_idle"
+		}
+	]
+}
