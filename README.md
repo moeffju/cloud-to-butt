@@ -1,4 +1,13 @@
-# cloud-zu-hintern
+# cloud-to-butt
+
+## Best version: cloud-to-butt-extended
+
+This chrome extension detects the language of the webpage and replaces variations of „cloud“ with the appropriately inappropriate translation of „butt“.
+
+[Download (.crx)](https://github.com/moeffju/cloud-to-butt/blob/master/cloud-to-butt-extended.crx?raw=true)
+
+This might be the best cloud-to-butt version yet.
+
 
 ## somewhat-safe-for-work-Version
 
